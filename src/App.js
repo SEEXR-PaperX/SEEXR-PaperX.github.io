@@ -14,10 +14,10 @@ function App() {
     <BrowserRouter>
       <Header disappearLocation={ disappearLocation } />
       <Routes>
-        <Route path="profile" element={<MyPage />} />
-        <Route path="login" element={<LoginPage />} />
+        <Route path="/profile" element={<MyPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/" element={<Home />} />
-        <Route path="archive" element={<Archive />} />
+        <Route path="/archive" element={<Archive />} />
       </Routes>
       <Navigation disappearLocation={ disappearLocation } />
     </BrowserRouter>
