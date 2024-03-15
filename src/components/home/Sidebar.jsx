@@ -7,7 +7,7 @@ const Sidebar = () => {
                 <div style={{
                     borderRight: '1px solid #ddd',
                     padding: '20px',
-                    width: '150px',
+                    width: '250px',
                     height: 'calc(100vh - 120px)', // 60px is the height of the bottom nav
                     boxSizing: 'border-box',
                     flexDirection: 'column'
@@ -22,7 +22,7 @@ const Sidebar = () => {
                 <div style={{
                     borderRight: '1px solid #ddd',
                     padding: '20px',
-                    width: '150px',
+                    width: '250px',
                     height: 'calc(100vh - 60px)', // 60px is the height of the bottom nav
                     boxSizing: 'border-box'
                 }}>
@@ -36,7 +36,7 @@ const Sidebar = () => {
                 <div style={{
                     borderRight: '1px solid #ddd',
                     padding: '20px',
-                    width: '150px',
+                    width: '250px',
                     height: 'calc(100vh - 60px)', // 60px is the height of the bottom nav
                     boxSizing: 'border-box'
                 }}>

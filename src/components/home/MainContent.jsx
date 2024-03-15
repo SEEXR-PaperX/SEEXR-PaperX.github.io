@@ -9,7 +9,7 @@ const MainContent = () => {
             <form>
                 {/* Substitute these input fields with real ones as needed */}
                 <input type="text" placeholder="제목" style={{ marginBottom: '10px', width: '95%', padding: '10px' }} />
-                <textarea placeholder="내용" style={{ width: '95%', minHeight: '150px', padding: '10px' }} />
+                <textarea placeholder="내용" style={{ width: '95%', height: '500px', padding: '10px' }} />
             </form>
         </div>
     );

@@ -1,4 +1,5 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, NavLink } from 'react-router-dom';
+import { IoMdArrowRoundBack, IoIosLogOut } from "react-icons/io";
 
 const Header = ({ disappearLocation }) => {
     const location = useLocation();
@@ -18,7 +19,8 @@ const Header = ({ disappearLocation }) => {
             borderBottom: '1px solid #eaeaea', // A subtle bottom border for visual separation
             display: 'flex',
             alignItems: 'center',
-            padding: '0 20px',
+            justifyContent: 'space-between',
+            padding: '0 20px 0 20px',
             boxSizing: 'border-box'
         }}>
             <button onClick={goBack} style={{
@@ -27,10 +29,22 @@ const Header = ({ disappearLocation }) => {
                 cursor: 'pointer',
                 padding: '10px',
                 fontSize: '16px',
-                left: '0'
-            }}>
-                &larr;
+            }} >
+                <IoMdArrowRoundBack />
             </button>
+            <NavLink to="/login" style={{
+                border: 'none',
+                background: 'none',
+                cursor: 'pointer',
+                padding: '10px',
+                fontSize: '16px',
+                }}
+            >
+                <IoIosLogOut style={{
+                    color: 'black'
+                }}
+                />
+            </NavLink>
             {/* Content will go here */}
         </header>
     );
