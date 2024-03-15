@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
@@ -65,7 +64,8 @@ const LoginPage = () => {
                             borderRadius: '4px',
                             cursor: 'pointer',
                             textAlign: 'center',
-                            textDecoration: 'none'
+                            textDecoration: 'none',
+                            color: 'black'
                         }}
                     >
                         로그인하기

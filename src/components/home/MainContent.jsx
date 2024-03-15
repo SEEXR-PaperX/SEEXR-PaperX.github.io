@@ -3,7 +3,7 @@ const MainContent = () => {
         <div style={{
             padding: '20px',
             flexGrow: 1,
-            height: 'calc(100vh - 60px)', // Same as Sidebar
+            height: 'calc(100vh - 120px)', // Same as Sidebar
             boxSizing: 'border-box'
         }}>
             <form>
