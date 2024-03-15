@@ -1,6 +1,12 @@
+import Sidebar from "../components/home/Sidebar"
+import MainContent from "../components/home/MainContent"
+
 function Home() {
     return (
-        <h2>Home Page</h2>
+        <div style={{ display: 'flex', flexGrow: 1 }}>
+            <Sidebar />
+            <MainContent />
+        </div>
     );
 }
 
